@@ -1,0 +1,55 @@
+<DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width , initial-scale=1.0 ">
+            <link rel="stylesheet" href="css/style.css">
+            <title>Stand-up web-site</title>
+        </head>
+<body>
+
+    <!-- Это всё дерево DOM  -->
+    <!-- хтмл документы представленны в браузерре в виде дерева ДОМ
+     теги становяться узлами обьктами и формируют структуру документа 
+    -->
+
+    <h1>
+        <span class="yellow">Java Script</span>
+        Браузерное окружение 
+        Работа c <span class="yellow">DOM</span>
+    </h1>
+    <h3>Урок 13</h3>
+    <div data-say-hi = "yes">Heloo!</div>
+
+    <ul>
+        <li>Корчи</li>
+        <li>Йончи</li>
+    
+    </ul>
+
+    <div class = "like"></div>
+<div class = "subscribe"></div>
+<div class = "like subscribe"></div>
+
+    <div class="lesson">
+        <div class="lesson__text"> TEXT</div>
+
+        <ul name="list" class="lesson__list">
+            <li class="lesson__item-list lesson__item-list_red">Punkt 1</li>
+            <li id="listItem" class="lesson__item-list">Punkt 2 </li>
+            <li class="lesson__item-list">Punkt 3
+                <ul class="lesson__sub-list">
+                    <li class="lesson__item-sub-list">Podpunkt 1 </li>
+                    <li data-item = "85" class="lesson__item-sub-list">Podpunkt2</li>
+                    <li class="lesson__item-sub-list">Podpunkt 3 </li>
+                </ul>
+            </li>
+            <li class="lesson__item-list lesson__item-list_blue">Punkt4</li>
+        </ul>
+
+    </div>
+
+
+    <script src="training.js"></script>
+    </body>
+</html>
